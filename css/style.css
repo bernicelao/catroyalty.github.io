@@ -1,0 +1,141 @@
+@charset "utf-8";
+*{
+	background-color: #4A0A2A;
+	color: #4A0A2A;
+}
+/* Background color for navbar and dropdown menus */
+.navbar-custom, .navbar-custom .dropdown-menu {
+    background-color: #820744;
+}
+/* Text color for navbar and dropdown menus */
+.navbar-custom .navbar-brand, .navbar-custom .navbar-text,
+.navbar-custom .navbar-nav .nav-link,
+.navbar-custom .dropdown-item {
+    color: #ecf0f1;
+}
+/* Background and text colors for current page link and links on hover and focus */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .dropdown-item:hover, 
+.navbar-custom .dropdown-item:focus {
+    background-color: #9A1456;
+    color: #fff;
+}
+/* Border and text colors for menu icon on small screens */
+.custom-toggler.navbar-toggler {
+    border-color: rgba(255,255,255,1.00);
+    color: #fff;
+}
+/* Hamburger icon - use same rgb values as previous rule for stroke */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(236,240,241, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-brand {
+    background-image: url(../images/svg/Vector-Cats-_Community_.svg);
+    background-repeat: no-repeat;
+    background-size: 15px auto;
+    padding-left: 31px;
+    background-position: 6% center;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 11px;
+}
+.nav-link {
+    font-family:  'Kiwi Maru', serif;
+}
+.btn {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 21px;
+	
+}
+.col-1 {
+    margin-left: 54px;
+    font-family: 'Kiwi Maru', serif;
+    color: #FFFFFF;
+}
+
+.col-2 {
+    margin-left: 91px;
+	font-family:  'Kiwi Maru', serif;
+	color: #FFFFFF;
+}
+
+.col-3 {
+    margin-left: 95px;
+	font-family:  'Kiwi Maru', serif;
+	color: #FFFFFF;
+}
+footer {
+    background-color: #440022;
+    color: #FFFFFF;
+    padding-bottom: 9px;
+    bottom: 12px;
+}
+
+body {
+    background-color: #4A0A2A;
+    margin-bottom: -51px;
+}
+body h2 {
+    margin-left: 553px;
+}
+
+.h5 {
+    margin-left: 161px;
+    margin-top: -8px;
+    margin-bottom: 24px;
+    padding-bottom: 49px;
+    padding-left: 14px;
+    padding-right: 0px;
+}
+
+.h1 {
+    color: #FFFFFF;
+	margin-left: 209px;
+}
+for {
+    margin-right: 14px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.form-group h4 {
+    color: #FFFFFF;
+	font-family:  'Kiwi Maru', serif;
+}
+li {
+    color: #FFFFFF;
+}
+li a {
+    color: #D4D4D4;
+}
+
+
+body header {
+    margin-left: 15px;
+    font-family: 'Kiwi Maru', serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 36px;
+}
+body main {
+    color: #FFFFFF;
+	font-family: 'Kiwi Maru', serif;
+    
+}
+
+.img-thumbnail.img-fluid {
+	background-color: #4A0A2A;
+	box-sizing: content-box;
+}
+.li {
+}
+btn-link {
+     color: #FFFFFF;
+}
+.row .col-lg-4.col-8.col-sm-8 .rounded.img-fluid {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+body header {
+    margin-left: -210px;
+}
